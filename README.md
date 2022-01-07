@@ -1,6 +1,8 @@
 ## Nasa Image Search
 
-An application used to aide users with searching NASA Image and Video Library API by allowing them to use a "Google" similar UI. The application was built with React, JavaScript, and vanilla CSS. This project was done as an application to Shopifiy Frontend Internship [wish me luck :)]
+An application used to aide users with searching NASA Image and Video Library API by allowing them to use a "Google" similar UI. The application was built with React, JavaScript, and vanilla CSS. This project was done as an application to Shopifiy Frontend Internship [wish me luck :)]. 
+
+Access the website [here](https://ghaith-chrit.github.io/Nasa-Image-Search/) 
 
 ## Project Status
 
