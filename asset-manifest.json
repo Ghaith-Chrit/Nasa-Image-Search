@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Nasa-Image-Search/static/css/main.b79c98ae.css",
-    "main.js": "/Nasa-Image-Search/static/js/main.a90b83eb.js",
+    "main.js": "/Nasa-Image-Search/static/js/main.5538e845.js",
     "static/media/bg.jpg": "/Nasa-Image-Search/static/media/bg.c85a30cfb40f5e3b4bf1.jpg",
     "index.html": "/Nasa-Image-Search/index.html",
     "main.b79c98ae.css.map": "/Nasa-Image-Search/static/css/main.b79c98ae.css.map",
-    "main.a90b83eb.js.map": "/Nasa-Image-Search/static/js/main.a90b83eb.js.map"
+    "main.5538e845.js.map": "/Nasa-Image-Search/static/js/main.5538e845.js.map"
   },
   "entrypoints": [
     "static/css/main.b79c98ae.css",
-    "static/js/main.a90b83eb.js"
+    "static/js/main.5538e845.js"
   ]
 }
