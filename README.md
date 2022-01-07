@@ -54,7 +54,7 @@ To install this repository, you will need NPM which comes with NodeJS now.
 
 ## Explanation of some part of the code
 
-The code shown below is inside an `<article>` tag with class name of `result` (Check SearchResult.jsx).
+The code shown below is inside an `<article>` tag with class name of `result` (Check SearchResult.jsx and Result.jsx).
 
 ```
 <div className='headerContainer'>
