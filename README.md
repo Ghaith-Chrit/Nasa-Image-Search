@@ -54,13 +54,42 @@ To install this repository, you will need NPM which comes with NodeJS now.
 
 ## Explanation of some part of the code
 
-The code shown below is inside an `<article>` tag with class name of `result`.
+The code shown below is inside an `<article>` tag with class name of `result` (Check SearchResult.jsx).
 
-![image](https://user-images.githubusercontent.com/76979568/148488927-a8c5018d-b8be-49ba-95dd-edd1e8647012.png)
+```
+<div className='headerContainer'>
+    <h1 className='resultHeader'>{data?.data[0].title}</h1>
+    <h2 className='resultSubheader'>Nasa ID: {data?.data[0].nasa_id}</h2>
+    <h2 className='resultDate'>Date: {new Date(data?.data[0].date_created).toDateString()}</h2>
+</div>
+    <div className='imgContainer'>
+        <img src={data?.links[0].href} alt='The picture provided by Nasa.' />
+    </div>
+    <p className='description'>{data?.data[0].description}</p>
+```
 
-Here is the style of the `result` class.
+Here is the style of the `result` class (Check Result.css).
 
-![image](https://user-images.githubusercontent.com/76979568/148489049-c76a84f3-cbf8-4a38-b9f4-3c42bed1a94d.png)
+```
+.result {
+    width: 90%;
+    height: 90%;
+    background-color: #232626c4;
+    border-radius: 20px;
+    border: 1px solid #b0aeb6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    overflow-y: auto;
+    font-family: Verdana, Tahoma, Helvetica, sans-serif;
+}
+
+.result * {
+    margin: auto;
+}
+```
 
 A reasonable question to ask here is why not just add these following styles to the `result` class and remove the styles of `margin: auto` for the children of `result`. 
 
