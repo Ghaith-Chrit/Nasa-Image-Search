@@ -1,0 +1,13 @@
+.logo {
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,30 @@
+.resultHeader {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.resultSubheader, .resultDate {
+    font-size: 1rem;
+    color: rgb(204, 194, 194);
+    margin: 0;
+}
+
+.resultDate {
+    padding-bottom: 20px;
+}
+
+.imgContainer {
+    max-height: calc(90% + 40px);
+    max-width: calc(90% + 40px);
+    padding: 20px;
+}
+
+.result img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 1.15rem;
+}

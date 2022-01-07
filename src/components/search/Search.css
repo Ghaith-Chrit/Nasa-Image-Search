@@ -1,0 +1,64 @@
+.imageSearchForm {
+    width: 75%;
+    text-align: center;
+}
+
+.termInput {
+    display: block;
+    border-radius: 35px;
+    outline: none;
+    border: 1px solid #b0aeb6;
+    background-color: #232626b0;
+    text-align: center;
+    padding: 12px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    color: #b0aeb6;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.termInput:hover {
+    background-color: #232626c4;
+}
+
+.animateWidth {
+    animation: increaseWidth 0.5s linear 0.2s;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+@keyframes increaseWidth {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.searchBTN::after {
+    content: 'Search';
+}
+
+.favBTN {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #b0aeb6;
+    margin: 0px;
+}
+
+.favBTN:hover {
+    color: #d9d7dd;
+}
+
+.favBTN:hover::before {
+    opacity: 0;
+    animation: none;
+}
