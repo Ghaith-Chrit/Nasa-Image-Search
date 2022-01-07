@@ -105,3 +105,8 @@ The answer is simply because when the flex item is becomes larger than its conta
   However, up to my knowledge, this is not supported by all browsers yet.
 
 ### Enjoy
+
+<details>
+  <summary>Easter egg</summary>
+  Throttle your connection to check the loading animation!
+</details>
