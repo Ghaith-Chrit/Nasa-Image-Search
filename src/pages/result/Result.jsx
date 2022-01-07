@@ -38,7 +38,7 @@ function Result() {
     const initialLikeBTNClass = () => {
         const result = getFav('fav');
         if (result && result.some(content => content.data[0].nasa_isd === data.data[0].nasa_isd))
-            return 'likedBTN';
+            return 'likedBTN likeBTN';
         return 'likeBTN';
     }
 
